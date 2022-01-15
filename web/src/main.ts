@@ -5,7 +5,8 @@ import { createPinia } from 'pinia'
 import { Quasar } from 'quasar'
 import quasarIconSet from 'quasar/icon-set/mdi-v6'
 
-// Import icon libraries
+// Import icon libraries; you can choose different ones!
+// See: https://quasar.dev/start/vite-plugin#using-quasar
 import '@quasar/extras/roboto-font-latin-ext/roboto-font-latin-ext.css'
 import '@quasar/extras/mdi-v6/mdi-v6.css'
 
@@ -40,7 +41,10 @@ myApp.use(Quasar, {
     */
 })
 
+// Connect Pinia
 myApp.use(createPinia());
+
+// Connect Vue Router
 myApp.use(router);
 
 // Assumes you have a <div id="app"></div> in your index.html
