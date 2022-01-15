@@ -2,7 +2,6 @@
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import VueRouter from 'vue-router'
 import { Quasar } from 'quasar'
 import quasarIconSet from 'quasar/icon-set/mdi-v6'
 
