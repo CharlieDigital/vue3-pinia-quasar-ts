@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { useAppState } from '../stores/appState'
 
 defineProps<{ msg: string }>()
 
-const count = ref(0)
+const appState = useAppState();
 </script>
 
 <template>
@@ -27,7 +27,7 @@ const count = ref(0)
         <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
     </p>
 
-    <button type="button" @click="count++">count is: {{ count }}</button>
+    <button type="button" @click="appState.counter++">count is: {{ appState.counter }}</button>
     <p>
         Edit
         <code>components/HelloWorld.vue</code> to test hot module replacement.
