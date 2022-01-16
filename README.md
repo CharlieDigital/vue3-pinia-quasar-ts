@@ -20,6 +20,8 @@ In the Vue ecosystem, there are a clear set of "best practices" which are coales
 
 Whereas in the React world, one might have to choose between Redux or Mobx (or Jotai or Zustand or [Valtio](https://betterprogramming.pub/magical-experiments-in-react-state-with-valtio-2b40cf159120)) and live with the compromises of one or the other, I kind of appreciate the fact that Pinia simply got lifted up to Vuex 5 instead of forking and creating two different, fragmented practices for state management.  These core functions of building front-end applications should "just work".
 
+Many of the improvements in Evan's talk have made working with Vue much, *much* more streamlined in my opinion and this starter template pulls them all together!
+
 ## Usage
 
 ```
@@ -53,4 +55,13 @@ Additionally, with [Volar](https://marketplace.visualstudio.com/items?itemName=j
 
 ## Notes:
 
-This approach loses some of the power of Quasar as it does not take advantage of the Quasar CLI (one of the best parts of Quasar).  [The Quasar team is working on swapping WebPack for Vite](https://github.com/quasarframework/quasar/issues/11113).
+If you're not familiar with Quasar, it is one of ***the best*** and most complete front-end *frameworks* out there.  Compared to the more popular Vuetify, it is:
+
+- more "complete"
+- has better controls
+- has fantastic, rich documentation and code examples
+- comes with pretty much everything one needs; I've rarely found myself having to pull in additional libraries when working with Quasar
+
+All of this means that you can build apps faster and with less friction.  I have built several apps now with Quasar ([CovidCureID](https://www.covidcureid.com/#/) is another public project of mine) and I find it incredibly productive.
+
+One key note is that the approach used in this project with Vite loses some of the power of Quasar as it does not take advantage of the Quasar CLI (one of the best parts of Quasar).  [The Quasar team is working on swapping WebPack for Vite](https://github.com/quasarframework/quasar/issues/11113).
