@@ -53,7 +53,7 @@ The `HelloWorld.vue` shows an example of how to use the global application state
 
 Of note with Pinia is that we get full intellisense 🎉 compared to Vuex.  If you need to, you can create multiple stores (see the Pinia docs for examples).
 
-Additionally, with [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) instead of Vetur, we finally get full intellisense in the templates as well!
+Additionally, with [Vue Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) instead of Volar and Veture, we finally get full intellisense in the templates as well!
 
 ## Notes:
 
