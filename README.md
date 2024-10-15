@@ -4,9 +4,11 @@ This repo contains a starter template that connects the following pieces:
 
 - [Vue3](https://v3.vuejs.org/)
 - [Vite](https://vitejs.dev/)
-- [Pinia (de facto Vuex 5)](https://pinia.vuejs.org/)
-- [Vue Router 4](https://next.router.vuejs.org/guide/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Vue Router](https://next.router.vuejs.org/guide/)
 - [Quasar](https://quasar.dev/)
+
+ Quasar is a powerful set of components which uses the Material UI design system.  While the styles are quite plain on their own (and perhaps even off-putting), it is easy to customize it.  I have used it extensively for my own projects like [Turas.app](https://turas.app), [Turas.app Chrome Extension](https://chromewebstore.google.com/detail/turasapp/lpfijfdbgohlblnadiokliolkkeeblpo), [Zeeq.ai](https://zeeq.ai), and [CodeRev.app](https://coderev.app).  It is easy and fast; great for internal tooling and more than usable for public facing apps.
 
 This project has been configured with Material Design Icons for Quasar.  If you'd like to use a different configuration, [see the Quasar docs](https://quasar.dev/start/vite-plugin#using-quasar).
 
@@ -62,6 +64,11 @@ If you're not familiar with Quasar, it is one of ***the best*** and most complet
 - has fantastic, rich documentation and code examples
 - comes with pretty much everything one needs; I've rarely found myself having to pull in additional libraries when working with Quasar
 
-All of this means that you can build apps faster and with less friction.  I have built several apps now with Quasar ([CovidCureID](https://www.covidcureid.com/#/) is another public project of mine) and I find it incredibly productive.
+All of this means that you can build apps faster and with less friction.
 
-One key note is that the approach used in this project with Vite loses some of the power of Quasar as it does not take advantage of the Quasar CLI (one of the best parts of Quasar).  [The Quasar team is working on swapping WebPack for Vite](https://github.com/quasarframework/quasar/issues/11113).
+## More Reading
+
+If you are just getting started with Vue, then check out:
+
+- [A Conceptual Model of State in Vue 3.4](https://chrlschn.dev/blog/2024/01/a-conceptual-model-of-state-in-vue-34-using-definemodel/).  A discussion on how Vue 3.4's release of `defineModel` changes the game for state management.
+- [Vue 3x3 - A Mental Model for Building Fast](https://chrlschn.dev/blog/2023/01/vue-3x3/). How to simplify your understanding of Vue to 9 core concepts.
