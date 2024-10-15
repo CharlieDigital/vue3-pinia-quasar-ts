@@ -16,4 +16,4 @@ If you are just getting started with Vue, then check out:
 
 ## Recommended IDE Setup
 
-- [VSCode](https://code.visualstudio.com/) + [Vue Official](https://marketplace.visualstudio.com/items?itemName=Vue.volarr)
+- [VSCode](https://code.visualstudio.com/) + [Vue Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
