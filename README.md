@@ -1,4 +1,4 @@
-# Vue3, Vite, Pinia (Vuex 5), Vue Router 4, Quasar, TypeScript Starter Template
+# Vue3, Vite, Pinia, Vue Router, Quasar, TypeScript Starter Template
 
 This repo contains a starter template that connects the following pieces:
 
