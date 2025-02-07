@@ -24,6 +24,19 @@ Whereas in the React world, one might have to choose between Redux or Mobx (or J
 
 Many of the improvements in Evan's talk have made working with Vue much, *much* more streamlined in my opinion and this starter template pulls them all together!
 
+## What Can You Build With This?
+
+Quasar's default styles can be a bit...bland.  But it's easy enough to overcome this with a bit of CSS, adjusting fonts, and other basic visual adjustments.
+
+Here are some apps I've built on top of this basic scaffold:
+
+- [Turas.app](https://turas.app): a web app for well-organized travelers to plan their itinerary; web, responsive, and PWA!
+- [Turas.app Chrome Extension](https://chromewebstore.google.com/detail/turasapp/lpfijfdbgohlblnadiokliolkkeeblpo): a Chrome extension built using this same stack!  Check it out for planning your next trip!
+- [Zeeq.ai](https://zeeq.ai): a personal AI agent that watches the FDA ClinicalTrials.gov feed for changes and notifies you.
+- [CodeRev.app](https://coderev.app): a lightweight tool to help teams use code reviews as interview but built with Nuxt; [check out the GitHub repo as well](https://github.com/CharlieDigital/coderev)!
+
+Quasar is extremely flexible and a very productive set of components to build on as long as you are willing to take the time to get it to look the way you want.
+
 ## Usage
 
 ```
